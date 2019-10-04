@@ -1,0 +1,8 @@
+applications:
+- name: config-microservice
+path: target/pcf-cloud-config.jar
+domain: cfapps.io
+memory: 1G
+instances: 1
+services:
+- my-config-server-satya
