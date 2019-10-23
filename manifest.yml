@@ -6,3 +6,4 @@ memory: 1G
 instances: 1
 services:
 - my-config-server-satya
+- ups-example1

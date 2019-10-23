@@ -75,3 +75,10 @@ public class UserProvidedServicesProperties {
   }
 
 ```
+
+# How to run the app
+
+```
+mvn install -DskipTests
+cf push
+```

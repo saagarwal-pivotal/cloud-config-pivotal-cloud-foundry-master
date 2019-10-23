@@ -15,9 +15,13 @@ public class CloudConfigPcfApplication {
 	@Value("${name:not found}")
 	private String name;
 
+	@Value("${cups}")
+	private String vcapUserCuos;
+
 	@GetMapping("/")
 	public String getMessage() {
-		return "Welcome to all : " + name;
+
+		return "Welcome to all : " + name + " vcapUserCuos : "+vcapUserCuos;
 	}
 
 	public static void main(String[] args) {
