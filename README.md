@@ -18,7 +18,7 @@ $ cf create-service -c cfg.json p-config-server trial my-config-server-satya
 # Below are the commands to create credhub and bind it to app 
 
 ```
-cf create-service credhub default my-credhub-instance - secret.json
+cf create-service credhub default my-credhub-instance -c secret.json
 
 cf bind-service MY-APP  my-credhub-instance
 
