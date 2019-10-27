@@ -1,9 +1,9 @@
 applications:
-- name: config-microservice
+- name: config-microservice2
 path: target/pcf-cloud-config.jar
-domain: cfapps.io
 memory: 1G
 instances: 1
 services:
 - my-config-server-satya
 - ups-example1
+- my-credhub-instance
